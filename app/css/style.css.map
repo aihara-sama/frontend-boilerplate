@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA;;EAEE,aAAa,EAAA;;AAEf;EACE,kBAAkB,EAAA;;AAEpB;EACE;IACE,eAAe,EAAA,EAChB","file":"style.css","sourcesContent":["html,\r\nbody {\r\n  height: 100vw;\r\n}\r\nbody {\r\n  background: yellow;\r\n}\r\n@media only screen and (-webkit-min-device-pixel-ratio: 2) {\r\n  body {\r\n    background: red;\r\n  }\r\n}\r\n"]}
