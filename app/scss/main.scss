@@ -7,3 +7,16 @@
   6. pages/
   7. themes/ 
 */
+
+@use 'base/reset';
+@use 'base/fonts';
+@use 'base/typography';
+@use 'base/heplers';
+
+@use 'components/media';
+@use 'components/button';
+@use 'components/input';
+
+@use 'layout/header';
+@use 'layout/main';
+@use 'layout/footer';

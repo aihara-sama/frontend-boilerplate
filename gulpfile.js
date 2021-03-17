@@ -57,7 +57,7 @@ gulp.task('images', function () {
 
 gulp.task('useref', () => {
   return gulp
-    .src('app/index.html')
+    .src('app/index.+(html|php)')
     .pipe(useref())
     .pipe(gulpif('*.js', uglify()))
     .pipe(
@@ -78,11 +78,7 @@ gulp.task('sass', () => {
     .pipe(sourcemaps.init())
 
     .pipe(sass())
-    .pipe(
-      autoprefixer({
-        cascade: false,
-      }),
-    )
+    .pipe(autoprefixer())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('app/css'))
 })

@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "last 24 version"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
@@ -24,9 +27,7 @@
     "gulp-purgecss": "^4.0.2",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^5.0.0"
-  },
-  "dependencies": {
+    "gulp-useref": "^5.0.0",
     "gulp-dart-sass": "^1.0.2"
   }
 }
